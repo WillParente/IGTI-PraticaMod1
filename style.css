@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 100px 0;
+}
+
+h1 {
+  font-family: Fira Code Retina;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.formRange {
+  display: block;
+}
+
+.inputRange {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+}
+
+.inputRange label {
+  width: 100px;
+}
+
+.inputRange .range {
+  width: 510px;
+  margin: 0 20px;
+}
+
+.inputRange .inputValue {
+  width: 30px;
+  text-align: center;
+}
+
+#quadrado {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  border: 1px solid black;
+}

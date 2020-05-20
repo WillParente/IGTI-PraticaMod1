@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Trabalho Prático do Módulo 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>VISUALIZAÇÃO DE CORES A PARTIR DA ESCALA RGB</h1>
+      <form class="formRange">
+        <div class="inputRange">
+          <label for="red">(R) Vermelho:</label>
+          <input
+            class="range"
+            type="range"
+            id="redRange"
+            name="red"
+            min="0"
+            max="255"
+          />
+          <input class="inputValue" type="text" id="redValue" disabled />
+        </div>
+        <div class="inputRange">
+          <label for="green">(G) Verde:</label>
+          <input
+            class="range"
+            type="range"
+            id="greenRange"
+            name="green"
+            min="0"
+            max="255"
+          />
+          <input class="inputValue" type="text" id="greenValue" disabled />
+        </div>
+        <div class="inputRange">
+          <label for="blue">(B) Azul:</label>
+          <input
+            class="range"
+            type="range"
+            id="blueRange"
+            name="blue"
+            min="0"
+            max="255"
+          />
+          <input class="inputValue" type="text" id="blueValue" disabled />
+        </div>
+      </form>
+      <div id="quadrado"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
